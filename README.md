@@ -1,2 +1,1 @@
-# devices-control
-nodejs与DTU交互--物联网
+使用nodejs express 框架 建立一个客户端 供设备控制、LED控制、数据采集使用;nodejs建立一个服务端，接收和处理DTU、web客户端发送的指令,视频监控操作

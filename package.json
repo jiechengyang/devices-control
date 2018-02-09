@@ -17,6 +17,7 @@
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-register": "^6.26.0",
+    "dateformat": "^3.0.2",
     "initnode": "^1.0.1",
     "mysql": "^2.15.0",
     "mysql-chassis": "^5.0.0",
