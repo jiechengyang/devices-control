@@ -17,8 +17,6 @@ const server =  net.createServer(function connectionListener(socket) {
 		// 发送响应包(第一次响应网关发过来的握手包，即服务端发起握手)
 		sendHex(socket, klhaConfig.cmd.handleBagCmd);
 	}
-sendHex(socket, '150100000006100300000008');
-
 
 	socket.on('data', function (data) {
 		var hexData = data.toString('hex');
